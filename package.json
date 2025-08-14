@@ -10,7 +10,8 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "inquirer": "^12.8.2",
+    "fs": "^0.0.1-security",
+    "inquirer": "^12.9.2",
     "qr-image": "^3.2.0"
   }
 }

@@ -16,8 +16,9 @@ inquirer
     })
     .catch((error) => {
         if (error.isTtyError) {
-            // Prompt couldn't be rendered in the current environment
-        } else {
-            // Something else went wrong
+            console.error('Prompt couldn\'t be rendered in the current environment.');
+         
+        } else {          
+            console.error('An error occurred:', error);
         }
     });
