@@ -8,10 +8,21 @@
   },
   "author": "Hithesh HG",
   "license": "ISC",
-  "description": "",
+  "description": "used node native models and npm packages to create qr code image of the url which is given as input. helped me explore npm packages its functionalities.",
   "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
     "fs": "^0.0.1-security",
     "inquirer": "^12.9.2",
     "qr-image": "^3.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HitheshHG/qrCode.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/HitheshHG/qrCode/issues"
+  },
+  "homepage": "https://github.com/HitheshHG/qrCode#readme"
 }
